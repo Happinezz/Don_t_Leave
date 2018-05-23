@@ -2,12 +2,12 @@
   "name" : "admin",
   "description" : null,
   "roleConfig" : {
-    "landingPage" : null
+    "landingPage" : "apply_leave"
   }
 }, {
   "name" : "user",
   "description" : null,
   "roleConfig" : {
-    "landingPage" : null
+    "landingPage" : "Main"
   }
 } ]

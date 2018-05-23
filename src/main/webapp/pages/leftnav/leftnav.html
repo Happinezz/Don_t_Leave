@@ -1,16 +1,16 @@
 <wm-partial data-ng-controller="leftnavPageController" name="leftnav" type="leftnav">
     <wm-nav name="leftnavigation" type="pills" layout="stacked">
         <wm-nav-item name="list_dashboard">
-            <wm-anchor caption="Dashboard" name="dashboardLink" iconclass="wi wi-bar-graph"></wm-anchor>
+            <wm-anchor caption="Dashboard" name="dashboardLink" iconclass="wi wi-bar-graph" on-click="Actions.goToPage_main_page.invoke()" animation="fadeInLeft" accessroles="Authenticated"></wm-anchor>
         </wm-nav-item>
         <wm-nav-item name="list_order">
-            <wm-anchor caption="Pending Orders" name="orderLink" iconclass="wi wi-file"></wm-anchor>
+            <wm-anchor caption="My Leaves" name="leaveListLink" iconclass="wi wi-file" on-click="Actions.goToPage_my_leaves.invoke()" animation="fadeInLeft" accessroles="Authenticated"></wm-anchor>
         </wm-nav-item>
         <wm-nav-item name="list_inventory">
-            <wm-anchor caption="Inventory" name="inventoryLink" iconclass="wi wi-tag"></wm-anchor>
+            <wm-anchor caption="Leave Management" name="leaveManagementLink" iconclass="wi wi-tag" on-click="Actions.goToPage_apply_leave.invoke()" iconposition="left" animation="fadeInLeft" accessroles="admin"></wm-anchor>
         </wm-nav-item>
         <wm-nav-item name="list_support">
-            <wm-anchor caption="Support Calls" name="supportLink" iconclass="wi wi-envelope"></wm-anchor>
+            <wm-anchor caption="Apply Leave" name="applyLeaveLink" iconclass="wi wi-directory fa-rotate-270 fa-pull-left" on-click="Actions.goToPage_leave_management.invoke()" animation="fadeInLeft" accessroles="Authenticated"></wm-anchor>
         </wm-nav-item>
     </wm-nav>
 </wm-partial>

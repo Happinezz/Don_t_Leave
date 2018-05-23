@@ -11,6 +11,14 @@
   "type" : "PAGE",
   "params" : [ ]
 }, {
+  "name" : "apply_leave",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "employee_list",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
   "name" : "footer",
   "type" : "FOOTER",
   "params" : [ ]
@@ -19,8 +27,24 @@
   "type" : "HEADER",
   "params" : [ ]
 }, {
+  "name" : "leave_management",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
   "name" : "leftnav",
   "type" : "LEFTNAV",
+  "params" : [ ]
+}, {
+  "name" : "main_page",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "my_leaves",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "my_profile",
+  "type" : "PAGE",
   "params" : [ ]
 }, {
   "name" : "rightnav",
